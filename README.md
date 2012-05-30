@@ -20,7 +20,7 @@ Add an entry into `application/bundles.php`:
 return array(
 
 	// ... existing bundles
-	'hmvc',
+	'hmvc' => array('auto' => true),
 
 );
 ```
