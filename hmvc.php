@@ -57,6 +57,6 @@ class HMVC {
 
 	public static function active()
 	{
-		return empty(static::$routes);
+		return ! empty(static::$routes);
 	}
 }
