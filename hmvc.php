@@ -47,7 +47,7 @@ class HMVC {
 		array_pop(static::$routes);
 		count(static::$routes) || static::$main_uri = null;
 
-		return $result;
+		return $result->content;
 	}
 
 	public static function route()
